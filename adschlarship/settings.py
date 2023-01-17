@@ -139,6 +139,8 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+
+X_FRAME_OPTIONS = 'ALLOW-FROM https://adsmoneyugx.herokuapp.com'
 #  Add configuration for static files storage using whitenoise
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
